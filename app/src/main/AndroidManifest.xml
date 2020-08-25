@@ -24,9 +24,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".ToiletActivity"></activity>
+        <activity android:name=".MemoListActivity"></activity>
+        <activity android:name=".AddMemoActivity"></activity>
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="Your Google Android Api Key value" />
+            android:value="AIzaSyAV9dyrzi-RQiLMpnCJsQiQj4B-2R-lu9U" />
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1063688177253",
+    "firebase_url": "https://junkdrawer-85e47.firebaseio.com",
+    "project_id": "junkdrawer-85e47",
+    "storage_bucket": "junkdrawer-85e47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063688177253:android:5c4ee9afc4b3095f84688c",
+        "android_client_info": {
+          "package_name": "com.chanmin.junkdrawer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063688177253-ao5vp064o14998sec4sqskk3bfhic5b6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chanmin.junkdrawer",
+            "certificate_hash": "a2d7b540dc2bd89c4f0674ba87f5427549d78d32"
+          }
+        },
+        {
+          "client_id": "1063688177253-e2of5k1cj3blpu7fjasnfsjk0sooc9tr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-ehI3U8Edg76oGKNwWy8FBLSaSOjz3Zc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063688177253-e2of5k1cj3blpu7fjasnfsjk0sooc9tr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

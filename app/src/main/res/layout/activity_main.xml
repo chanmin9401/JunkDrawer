@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorWhite"
-    android:id="@+id/main_layout">
+    android:background="#FFFFFF">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -18,10 +19,11 @@
             android:layout_marginTop="50dp"
             android:layout_marginEnd="20dp"
             android:layout_marginBottom="50dp"
-            android:contentDescription="@string/app_name"
+            android:contentDescription="잡동사니"
             android:src="@drawable/phone" />
 
     </LinearLayout>
+
     <ProgressBar
         android:id="@+id/progress_bar"
         android:layout_width="wrap_content"
@@ -43,43 +45,45 @@
             android:id="@+id/calendar_open_button"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_marginBottom="5dp"
-            android:layout_marginEnd="20dp"
             android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="5dp"
             android:background="@drawable/btn_open_calendar"
-            android:text="@string/open_calendar"
-            android:textColor="@color/colorBlack" />
+            android:text="나만의 CALENDAR"
+            android:textColor="#000000" />
 
         <Button
             android:id="@+id/seoul_toilet_open_button"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_marginBottom="5dp"
-            android:layout_marginEnd="20dp"
             android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="5dp"
             android:background="@drawable/btn_open_seoultoilet"
-            android:text="@string/open_seoul_toilet"
-            android:textColor="@color/colorBlack" />
+            android:text="서울시 공중화장실 찾기"
+            android:textColor="#000000" />
+
         <Button
             android:id="@+id/metro_schedule_open_button"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_marginBottom="5dp"
-            android:layout_marginEnd="20dp"
             android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="5dp"
             android:background="@drawable/btn_open_metro_schedule"
-            android:text="@string/open_metro_schedule"
-            android:textColor="@color/colorBlack" />
+            android:text="지하철 시간표 확인"
+            android:textColor="#000000" />
+
         <Button
             android:id="@+id/notes_open_button"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_marginBottom="55dp"
-            android:layout_marginEnd="20dp"
             android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="55dp"
             android:background="@drawable/btn_open_notes"
-            android:text="@string/open_notes"
-            android:textColor="@color/colorBlack" />
+            android:text="메모메모 MEMO_MEMO"
+            android:textColor="#000000" />
 
     </LinearLayout>
 
